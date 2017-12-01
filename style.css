@@ -1,23 +1,131 @@
-body 
-{
-margin: 0; 
-padding: 0; 
-font-size: 14px; 
-font-family: Arial, Helvetica, sans-serif;
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
-/***********css Animation*********/
-h1.h1_{ margin-top: 100px;} 
-.ex_c {
-	color: red;
-	
-		-webkit-transition: 5s;
-	 -ms-transition: 5s;
-	transition:  5s ;
-}
-.ex_c:hover {
-	color: green;
-	font-size: 600%; 
-	cursor:pointer;
-	position: absolute;
 
+h1, h2, h3, h4, h5, h6 {
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a, a:focus {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #ff6f00;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.base_color {
+    color: #ff6f00;
+}
+
+.base_bg_color {
+    background-color: #ff6f00;
+}
+
+/***********Main Menu*********/
+.custom-nav {
+    background-color: rgba(0,0,0,.4);
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+}
+
+.custom-nav .navbar-header {
+}
+
+.custom-nav a.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.custom-nav a.navbar-brand span {
+    color: #ff6f00;
+}
+
+.custom-nav ul.nav {
+}
+
+.custom-nav ul.nav li {
+}
+
+.custom-nav ul.nav li a {
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.custom-nav ul.nav li:hover a {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 0px 9px -3px rgba(0, 0, 0, 0.15);
+    color: #ff6f00;;
+}
+
+/***********Slider Banner style main_banner**********/
+.main_banner {
+}
+
+.main_banner .carousel-inner {
+}
+
+.main_banner .item {
+}
+
+.main_banner .item.active {
+}
+
+.main_banner .item img {
+    height: auto;
+    width: 100%;
+}
+
+.main_banner .item .carousel-caption {
+    top: 36%;
+}
+
+.main_banner {
+}
+
+.main_banner a.carousel-control {
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .5);
+    line-height: 40px;
+    font-size: 28px;
+    background-image: none;
+    margin: auto;
+}
+
+.main_banner a.carousel-control.left {
+    left: 30px;
+}
+
+.main_banner a.carousel-control.right {
+    right: 30px;
+}
+
+.main_banner a.carousel-control i {
 }
