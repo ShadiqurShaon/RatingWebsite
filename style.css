@@ -15,7 +15,7 @@ h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-a, a:focus{
+a, a:focus {
     text-decoration: none;
     color: #000000;
 }
@@ -38,6 +38,7 @@ ul {
 .base_bg_color {
     background-color: #ff6f00;
 }
+
 .btn_c {
     padding: 5px 15px;
     font-size: 18px;
@@ -45,12 +46,14 @@ ul {
     display: inline-block;
     margin-top: 10px;
 }
+
 .btn_c:hover {
     border: 1px solid #ff6f00;
 }
+
 /***********Main Menu*********/
 .custom-nav {
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0, 0, 0, .4);
     border-radius: 0;
     border: none;
     margin: 0;
@@ -140,38 +143,107 @@ ul {
 
 .main_banner a.carousel-control i {
 }
+
 /************   Top Rated  Company_Details **********/
 .company_details {
     text-align: center;
     margin: 25px 0 20px 0
 }
-.company_details .img {}
-.company_details .img img{
+
+.company_details .img {
+}
+
+.company_details .img img {
     margin: auto;
     display: block;
     max-width: 100%;
 
 }
-.company_details .details {}
-.company_details .details ul{}
+
+.company_details .details {
+}
+
+.company_details .details ul {
+}
+
 .company_details .details ul li {
     display: inline-block;
     padding: 0 5px;
 }
-.company_details .review {}
+
+.company_details .review {
+}
+
 .company_details .review ul {
     padding-top: 10px;
 }
-.company_details .review ul li{
+
+.company_details .review ul li {
     font-size: 22px;
     padding: 0 2px;
     cursor: pointer;
 }
-.company_details .review ul li i{
+
+.company_details .review ul li i {
 }
-.company_details .review ul li:hover i{
+
+.company_details .review ul li:hover i {
     color: #ff6f00;
 }
-.company_details .review ul li:hover i:before{
+
+.company_details .review ul li:hover i:before {
     content: "\f005";
 }
+
+/*****blog_post*****/
+#blog h1{
+    margin-bottom: 50px;
+    position: relative;
+}
+#blog h1:after{
+    content: '';
+    background: #ff6f00;
+    position: absolute;
+    z-index: 99999;
+    height: 2px;
+    width: 125px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -6px;
+
+}
+.blog_post {
+    margin-bottom: 15px;
+}
+
+.blog_post .img {
+}
+
+.blog_post .img img {
+}
+
+.blog_post .details {
+    padding: 15px 0;
+    color: #303030;
+}
+
+.blog_post a:hover .details {
+    color: #ff6f00;
+}
+.blog_post .details .media {
+}
+
+.blog_post .details .media .media-left {
+    min-width: 70px;
+    text-align: center;
+}
+
+.blog_post .details .media .media-left span {
+    border: 2px solid #000;
+    padding: 8px 0;
+    display: block;
+    color: #303030;
+}
+.blog_post .details .media .media-body  p{}
+.blog_post .details .media .media-body  p i{padding: 0 5px;}
