@@ -21,6 +21,7 @@
 
     <link rel="stylesheet" href="css/font-awesome.css"> <!--  Font Awesome 4.7.0 -->
     <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- currently v3.3.7 -->
+    <link rel="stylesheet" href="plugins/OwlCarousel2/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
 </head>
@@ -61,7 +62,6 @@
                 </div><!-- /.container-fluid -->
             </nav>
         </section>
-
         <header>
             <div id="header_slider" class="carousel slide main_banner" data-ride="carousel">
 
@@ -394,7 +394,98 @@
                 </div>
             </div>
         </section>
-        <section>
+
+
+        <section id="breakSection">
+            <div class="container-fluid">
+                <div class="row">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="upCommingEvent">
+            <div class="container">
+                <div class="row">
+                    <h1>UPCOMING EVENTS</h1>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="event_post">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="img/event/events.jpg" alt="events.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading">Fast Track Course Opening</h3>
+                                        <p>
+                                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                            Aug 2015 @ 09 am - Aug 2024 @ 06 pm <br>
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            Rippon Building, United Kingdom + <a href="javascript:">Google Map</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="event_post">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="img/event/events.jpg" alt="events.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading">Fast Track Course Opening</h3>
+                                        <p>
+                                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                            Aug 2015 @ 09 am - Aug 2024 @ 06 pm <br>
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            Rippon Building, United Kingdom + <a href="javascript:">Google Map</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="event_post">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="img/event/events.jpg" alt="events.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading">Fast Track Course Opening</h3>
+                                        <p>
+                                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                            Aug 2015 @ 09 am - Aug 2024 @ 06 pm <br>
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            Rippon Building, United Kingdom + <a href="javascript:">Google Map</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="event_post">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="img/event/events.jpg" alt="events.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading">Fast Track Course Opening</h3>
+                                        <p>
+                                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                            Aug 2015 @ 09 am - Aug 2024 @ 06 pm <br>
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            Rippon Building, United Kingdom + <a href="javascript:">Google Map</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
         </section>
         <section>
         </section>
@@ -414,7 +505,28 @@
 </div>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 2
+            }
 
+        }
+    })
+</script>
 </body>
 </html>

@@ -195,12 +195,13 @@ ul {
     content: "\f005";
 }
 
-/*****blog_post*****/
-#blog h1{
+/*****  Blog Post *****/
+#blog h1 {
     margin-bottom: 50px;
     position: relative;
 }
-#blog h1:after{
+
+#blog h1:after {
     content: '';
     background: #ff6f00;
     position: absolute;
@@ -213,6 +214,7 @@ ul {
     bottom: -6px;
 
 }
+
 .blog_post {
     margin-bottom: 15px;
 }
@@ -231,6 +233,7 @@ ul {
 .blog_post a:hover .details {
     color: #ff6f00;
 }
+
 .blog_post .details .media {
 }
 
@@ -245,5 +248,70 @@ ul {
     display: block;
     color: #303030;
 }
-.blog_post .details .media .media-body  p{}
-.blog_post .details .media .media-body  p i{padding: 0 5px;}
+
+.blog_post .details .media .media-body p {
+    margin-top: 10px;
+}
+
+.blog_post .details .media .media-body p i {
+    padding: 0 5px;
+}
+
+/****** Break Section ********/
+#breakSection {
+    height: 300px;
+    position: relative;
+    background-image: url(img/break-s.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#breakSection:before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+/****** Event Section ********/
+#upCommingEvent {}
+#upCommingEvent .owl-dots{
+    display: none}
+#upCommingEvent .owl-nav{}
+#upCommingEvent .owl-nav .owl-prev,
+#upCommingEvent .owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 2px solid #201c1d;
+    padding: 2px 14px;
+    font-size: 22px;
+    border-radius: 2px;
+}
+#upCommingEvent .owl-nav .owl-prev{
+    right: 48px;
+}
+#upCommingEvent .owl-carousel .owl-stage{
+    margin-top: 70px;
+}
+.event_post {}
+.event_post .media{}
+.event_post .media .media-left{}
+.event_post .media .media-left img{
+    max-width: 200px;
+    width: auto;
+
+}
+.event_post .media .media-body{
+    padding-left: 15px;
+}
+.event_post .media .media-body p{
+    line-height: 30px;
+    margin-top: 15px;
+    color: #808080;
+}
+.event_post .media .media-body p i{
+    color: #000;
+    padding-right: 5px;
+}
